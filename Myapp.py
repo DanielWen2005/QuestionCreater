@@ -25,3 +25,7 @@ def get_n_data():
         return args.read
     else:
         print("未提供 -n 参数")
+
+if __name__ == "__main__":
+    rData = get_r_data
+    nData = get_n_data
